@@ -1,0 +1,137 @@
+body {
+    background-image: url("download.jpg");
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav ul {
+    list-style: none;
+    background: #663366;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    width: 100px;
+    display: block;
+    padding: 15px;
+    font-size: 17px;
+    font-family: Helvetica;
+    transition: 0.4s;
+}
+
+.nav a:hover {
+    background-color: brown;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-section {
+    width: 50%;
+}
+
+.right-section {
+    margin-top: 20px;
+    width: 40%;
+}
+
+.content {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content h1 {
+    margin-top: 0;
+}
+
+.content p {
+    line-height: 1.5;
+}
+/* 
+.right-section img {
+    max-width: 60%;
+} */
+
+.contact-icons {
+    display: flex;
+    margin-top: 20px;
+    width: 50px;
+    color: #aaaaaa;
+    transition: color 0.2s;
+}
+
+.contact-icons:hover {
+    color: #333333;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.myImage {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile-pic {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
